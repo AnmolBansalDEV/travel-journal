@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav{
+  height: 55px;
+  background-color: #f55a5a;
+  color: white;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.globe-icon{
+  height: 24px;
+  margin-right: 7px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav > h3{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+}
+section{
+  padding: 50px 80px;
+}
+.card{
+  display: flex;
+}
+.card > img{
+  width: 250px;
+  height: 300px;
+  border-radius: 5px;
+  margin-right: 100px;
+}
+.location{
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+}
+.location-pin{
+  color: #f55a5a;
+  margin-right: 12px;
+  height: 20px;
+}
+.location-name{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.17em;
+  color: #2B283A;
+  margin-right: 26px;
+  text-transform: uppercase;
+}
+.location-map{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 12px;
+  text-decoration-line: underline;
+  color: #918E9B;
+}
+.title{
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: 0.07em;
+  color: #2B283A;
+}
+.date{
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 45px;
+  margin-bottom: 10px;
+  line-height: 12px;
+  color: #2B283A;
+}
+.desc{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #2B283A;
+  max-width: 550px;
+}
+hr{
+  border: 0px;
+  border-top: 3px solid #F5F5F5;
 }
